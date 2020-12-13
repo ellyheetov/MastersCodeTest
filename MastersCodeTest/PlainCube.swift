@@ -66,27 +66,51 @@ struct PlainCube {
         print("\(cube[2][0]) \(cube[2][1]) \(cube[2][2])", terminator: "\n\n")
     }
     mutating func moveUpLeft() {
-
+        let temp = cube[0][0]
+        cube[0][0] = cube[0][1]
+        cube[0][1] = cube[0][2]
+        cube[0][2] = temp
     }
     mutating func moveUpRight() {
-
+        let temp = cube[0][2]
+        cube[0][2] = cube[0][1]
+        cube[0][1] = cube[0][0]
+        cube[0][0] = temp
     }
     mutating func moveRightUp() {
-
+        let temp = cube[0][2]
+        cube[0][2] = cube[1][2]
+        cube[1][2] = cube[2][2]
+        cube[2][2] = temp
     }
     mutating func moveRightDown() {
-
+        let temp = cube[2][2]
+        cube[2][2] = cube[1][2]
+        cube[1][2] = cube[0][2]
+        cube[0][2] = temp
     }
     mutating func moveLeftDown(){
-
+        let temp = cube[2][0]
+        cube[2][0] = cube[1][0]
+        cube[1][0] = cube[0][0]
+        cube[0][0] = temp
     }
     mutating func moveLeftUp(){
-
+        let temp = cube[0][0]
+        cube[0][0] = cube[1][0]
+        cube[1][0] = cube[2][0]
+        cube[2][0] = temp
     }
     mutating func moveDownRight() {
-
+        let temp = cube[2][2]
+        cube[2][2] = cube[2][1]
+        cube[2][1] = cube[2][0]
+        cube[2][0] = temp
     }
     mutating func moveDownLeft() {
-
+        let temp = cube[2][0]
+        cube[2][0] = cube[2][1]
+        cube[2][1] = cube[2][2]
+        cube[2][2] = temp
     }
 }

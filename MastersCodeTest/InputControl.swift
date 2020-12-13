@@ -22,7 +22,7 @@ struct InputControl {
         var answer = [String]()
         
         for char in splitedList {
-            if char == "\'" && !answer.isEmpty{
+            if char == "\'" {
                 let temp = answer.last!
                 answer.removeLast()
                 answer.append(temp + char)

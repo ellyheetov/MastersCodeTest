@@ -7,5 +7,18 @@
 
 import Foundation
 
-print("Hello, World!")
+struct CubeGame{
+    var plainCube = PlainCube()
+    
+    mutating func play(){
+        plainCube.printCube()
+        
+        while(plainCube.continueToPlayGame){
+            let times = InputControl.getInput()
+            plainCube.move(inputs: times)
+        }
+    }
+}
 
+var cubeGame = CubeGame()
+cubeGame.play()

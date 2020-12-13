@@ -14,12 +14,22 @@ enum InputError : Error {
 struct InputControl {
     static func getInput() -> [String]? {
         print("CUBE>", terminator: " ")
-        guard let answer = readLine() else {
+        guard let response = readLine() else {
             return nil
         }
-        let splitedTurn = answer.map{ String($0)}
-    
-        return splitedTurn
+        let splitedList = response.map{ String($0)}
+        
+        var answer = [String]()
+        
+        for char in splitedList {
+            if char == "\'" {
+                let temp = answer.last!
+                answer.removeLast()
+                answer.append(temp + char)
+            }
+            else {answer.append(char)}
+        }
+        return answer
     }
     
     static func convertedTurn(input: String) -> Direction {

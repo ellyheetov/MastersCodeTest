@@ -7,5 +7,5 @@
 
 import Foundation
 
-print("Hello, World!")
-
+var cube = RubiksCube()
+cube.printCube()

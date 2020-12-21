@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		10E51EC72585F2FE00DF4FDA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E51EC62585F2FE00DF4FDA /* main.swift */; };
+		10F5A9872590D14500D6140F /* RubiksCube.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F5A9862590D14500D6140F /* RubiksCube.swift */; };
+		10F5A98A2590D1F500D6140F /* PlaneCube.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F5A9892590D1F500D6140F /* PlaneCube.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		10E51EC32585F2FE00DF4FDA /* MastersCodeTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MastersCodeTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10E51EC62585F2FE00DF4FDA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		10F5A9862590D14500D6140F /* RubiksCube.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RubiksCube.swift; sourceTree = "<group>"; };
+		10F5A9892590D1F500D6140F /* PlaneCube.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaneCube.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				10E51EC62585F2FE00DF4FDA /* main.swift */,
+				10F5A9862590D14500D6140F /* RubiksCube.swift */,
+				10F5A9892590D1F500D6140F /* PlaneCube.swift */,
 			);
 			path = MastersCodeTest;
 			sourceTree = "<group>";
@@ -119,6 +125,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10F5A98A2590D1F500D6140F /* PlaneCube.swift in Sources */,
+				10F5A9872590D14500D6140F /* RubiksCube.swift in Sources */,
 				10E51EC72585F2FE00DF4FDA /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		109CADF0259195B90075B694 /* InputControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109CADEF259195B90075B694 /* InputControl.swift */; };
+		109CADF8259196320075B694 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109CADF7259196320075B694 /* Direction.swift */; };
 		10E51EC72585F2FE00DF4FDA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E51EC62585F2FE00DF4FDA /* main.swift */; };
 		10F5A9872590D14500D6140F /* RubiksCube.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F5A9862590D14500D6140F /* RubiksCube.swift */; };
 		10F5A98A2590D1F500D6140F /* PlaneCube.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F5A9892590D1F500D6140F /* PlaneCube.swift */; };
@@ -27,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		109CADEF259195B90075B694 /* InputControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputControl.swift; sourceTree = "<group>"; };
+		109CADF7259196320075B694 /* Direction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
 		10E51EC32585F2FE00DF4FDA /* MastersCodeTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MastersCodeTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10E51EC62585F2FE00DF4FDA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		10F5A9862590D14500D6140F /* RubiksCube.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RubiksCube.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				10F5A9862590D14500D6140F /* RubiksCube.swift */,
 				10F5A9892590D1F500D6140F /* PlaneCube.swift */,
 				109CADEF259195B90075B694 /* InputControl.swift */,
+				109CADF7259196320075B694 /* Direction.swift */,
 			);
 			path = MastersCodeTest;
 			sourceTree = "<group>";
@@ -131,6 +134,7 @@
 				10F5A98A2590D1F500D6140F /* PlaneCube.swift in Sources */,
 				10F5A9872590D14500D6140F /* RubiksCube.swift in Sources */,
 				109CADF0259195B90075B694 /* InputControl.swift in Sources */,
+				109CADF8259196320075B694 /* Direction.swift in Sources */,
 				10E51EC72585F2FE00DF4FDA /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
